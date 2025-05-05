@@ -47,6 +47,8 @@
             (ags.packages.${system}.default.override {
               extraPackages = [
                 # cherry pick packages
+                ags.packages.${system}.hyprland
+                pkgs.astal.hyprland
               ];
             })
           ];
