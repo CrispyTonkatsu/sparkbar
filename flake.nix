@@ -35,6 +35,7 @@
             # pkgs.fzf
 
             ags.packages.${system}.hyprland
+            pkgs.astal.hyprland
           ];
         };
       };
@@ -47,6 +48,7 @@
               extraPackages = [
                 # cherry pick packages
                 ags.packages.${system}.hyprland
+                pkgs.astal.hyprland
               ];
             })
           ];
