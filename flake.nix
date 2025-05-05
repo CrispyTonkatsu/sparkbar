@@ -33,6 +33,8 @@
           extraPackages = [
             # ags.packages.${system}.battery
             # pkgs.fzf
+
+            ags.packages.${system}.hyprland
           ];
         };
       };
@@ -44,6 +46,7 @@
             (ags.packages.${system}.default.override {
               extraPackages = [
                 # cherry pick packages
+                ags.packages.${system}.hyprland
               ];
             })
           ];
